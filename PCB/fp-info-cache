@@ -1,4 +1,4 @@
-20834907309579973
+20844554034091403
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -231,16 +231,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -531,6 +531,48 @@ SPECTACLE_LOGO_TITLE_0.35X0.70
 0
 0
 0
+ArduinoMicroC
+ArduinoMicroC
+Neih-Tech Arduino Micro-C
+neih tech arduino micro c
+0
+60
+30
+ArduinoMicroC
+ArduinoMicroC_24Pins
+Neih-Tech Arduino Micro-C with only 24 pins
+neih tech arduino micro c only 24 pins
+0
+48
+24
+ArduinoMicroC
+ArduinoMicroC_24Pins_SMD
+Neih-Tech Arduino Micro-C with only 24 pins and SMD solder
+neih tech arduino micro c 24 pins smd solder
+0
+24
+24
+ArduinoMicroC
+ArduinoMicroC_24Pins_THT
+Neih-Tech Arduino Micro-C with only 24 pins and THT solder
+neih tech arduino micro c 24 pin tht solder
+0
+24
+24
+ArduinoMicroC
+ArduinoMicroC_SMD
+Neih-Tech Arduino Micro-C with only SMD solder
+neih tech arduino micro c smd solder
+0
+30
+30
+ArduinoMicroC
+ArduinoMicroC_THT
+Neih-Tech Arduino Micro-C with only THT solder
+neih tech arduino micro c tht solder
+0
+30
+30
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

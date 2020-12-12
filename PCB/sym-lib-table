@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ArduinoMicroC)(type Legacy)(uri E:/Projects/Embedded/ArduinoMicroC/Module/Library/ArduinoMicroC.lib)(options "")(descr ""))
+)

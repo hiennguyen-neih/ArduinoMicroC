@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ArduinoMicroC)(type KiCad)(uri E:/Projects/Embedded/ArduinoMicroC/Module/Footprint/ArduinoMicroC.pretty)(options "")(descr ""))
+)
