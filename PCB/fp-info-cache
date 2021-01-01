@@ -1,4 +1,4 @@
-20844554034091403
+20851006059665398
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -63735,6 +63735,34 @@ Mounting 4.5mm 9774100982
 8
 1
 NeihConnector
+PinHeader_1x05_P2.54mm_Circular_Vertical_1
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+NeihConnector
+PinHeader_1x05_P2.54mm_Circular_Vertical_2
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+10
+5
+NeihConnector
+PinHeader_1x05_P2.54mm_Rectangular_Vertical_1
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+NeihConnector
+PinHeader_1x05_P2.54mm_Rectangular_Vertical_2
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+10
+5
+NeihConnector
 PinHeader_1x06_P2.54mm_Circular_Vertical_1
 Through hole straight pin header, 1x06, 2.54mm pitch, single row
 Through hole pin header THT 1x06 2.54mm single row
@@ -63749,14 +63777,14 @@ Through hole pin header THT 1x06 2.54mm single row
 12
 6
 NeihConnector
-PinHeader_1x06_P2.54mm_Rectangle_Vertical_1
+PinHeader_1x06_P2.54mm_Rectangular_Vertical_1
 Through hole straight pin header, 1x06, 2.54mm pitch, single row
 Through hole pin header THT 1x06 2.54mm single row
 0
 6
 6
 NeihConnector
-PinHeader_1x06_P2.54mm_Rectangle_Vertical_2
+PinHeader_1x06_P2.54mm_Rectangular_Vertical_2
 Through hole straight pin header, 1x06, 2.54mm pitch, single row
 Through hole pin header THT 1x06 2.54mm single row
 0
@@ -63777,14 +63805,14 @@ Through hole pin header THT 1x12 2.54mm single row
 24
 12
 NeihConnector
-PinHeader_1x12_P2.54mm_Rectangle_Vertical_1
+PinHeader_1x12_P2.54mm_Rectangular_Vertical_1
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
 Through hole pin header THT 1x12 2.54mm single row
 0
 12
 12
 NeihConnector
-PinHeader_1x12_P2.54mm_Rectangle_Vertical_2
+PinHeader_1x12_P2.54mm_Rectangular_Vertical_2
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
 Through hole pin header THT 1x12 2.54mm single row
 0
@@ -63805,14 +63833,14 @@ Through hole pin header THT 1x15 2.54mm single row
 30
 15
 NeihConnector
-PinHeader_1x15_P2.54mm_Rectangle_Vertical_1
+PinHeader_1x15_P2.54mm_Rectangular_Vertical_1
 Through hole straight pin header, 1x15, 2.54mm pitch, single row
 Through hole pin header THT 1x15 2.54mm single row
 0
 15
 15
 NeihConnector
-PinHeader_1x15_P2.54mm_Rectangle_Vertical_2
+PinHeader_1x15_P2.54mm_Rectangular_Vertical_2
 Through hole straight pin header, 1x15, 2.54mm pitch, single row
 Through hole pin header THT 1x15 2.54mm single row
 0

@@ -164,19 +164,19 @@ A1
 Text GLabel 8750 5300 2    50   Input ~ 0
 A0
 Text GLabel 8750 2500 2    50   Input ~ 0
-SCK
+15
 Text GLabel 8750 2700 2    50   Input ~ 0
-MISO
+14
 Text GLabel 8750 2800 2    50   Input ~ 0
-D8
+8
 Text GLabel 8750 2900 2    50   Input ~ 0
-D9
+9
 Text GLabel 8750 3000 2    50   Input ~ 0
-D10
+10
 Text GLabel 8750 3100 2    50   Input ~ 0
-D11
+11
 Text GLabel 8750 3300 2    50   Input ~ 0
-D5
+5
 Wire Wire Line
 	6950 4300 6950 4150
 Wire Wire Line
@@ -194,15 +194,15 @@ RX
 Text GLabel 8750 3900 2    50   Input ~ 0
 TX
 Text GLabel 8750 4000 2    50   Input ~ 0
-D4
+4
 Text GLabel 8750 4200 2    50   Input ~ 0
-D12
+12
 Text GLabel 8750 4300 2    50   Input ~ 0
-D6
+6
 Text GLabel 8750 4600 2    50   Input ~ 0
-D7
+7
 Text GLabel 8750 2600 2    50   Input ~ 0
-MOSI
+16
 Wire Wire Line
 	3050 5500 3050 5650
 Text GLabel 3050 5650 3    50   Input ~ 0
@@ -224,20 +224,9 @@ GND
 Wire Wire Line
 	6900 3700 6750 3700
 Wire Wire Line
-	3400 1300 3400 1150
-$Comp
-L Switch:SW_DIP_x01 SW1
-U 1 1 5FBA00D1
-P 3400 1950
-F 0 "SW1" V 3354 2080 50  0000 L CNN
-F 1 "SW_Check_USB" V 3445 2080 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Copal_CVS-01xB_W5.9mm_P1mm" H 3400 1950 50  0001 C CNN
-F 3 "~" H 3400 1950 50  0001 C CNN
-	1    3400 1950
-	0    1    1    0   
-$EndComp
-Text GLabel 3400 1150 1    50   Input ~ 0
-D11
+	3400 2050 3400 1900
+Text GLabel 3400 1900 1    50   Input ~ 0
+11
 Wire Wire Line
 	3400 2850 3550 2850
 Connection ~ 3400 2850
@@ -275,15 +264,12 @@ Wire Wire Line
 Wire Wire Line
 	5750 2850 5750 3000
 Connection ~ 5750 2850
-Connection ~ 5350 2850
 Wire Wire Line
 	5350 2850 5750 2850
 Wire Wire Line
 	5350 3300 5350 3450
 Wire Wire Line
 	5350 2850 5350 3100
-Wire Wire Line
-	4750 2850 5350 2850
 Wire Wire Line
 	4900 3300 4900 3450
 Wire Wire Line
@@ -295,10 +281,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 2950 4000 2850
 Connection ~ 4000 2950
-Wire Wire Line
-	4150 2950 4000 2950
-Wire Wire Line
-	4000 2850 4150 2850
 Connection ~ 4000 2850
 Wire Wire Line
 	4000 3100 4000 2950
@@ -306,17 +288,6 @@ Wire Wire Line
 	3850 2850 4000 2850
 Wire Wire Line
 	4450 3250 4450 3400
-$Comp
-L Regulator_Linear:MIC5219-5.0YM5 U1
-U 1 1 5FBA006E
-P 4450 2950
-F 0 "U1" H 4450 3292 50  0000 C CNN
-F 1 "MIC5219-5.0YM5" H 4450 3201 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4450 3275 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 4450 2950 50  0001 C CNN
-	1    4450 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5750 2700 5750 2850
 Text GLabel 5750 3800 3    50   Input ~ 0
@@ -452,7 +423,7 @@ U 1 1 5FBA001C
 P 3050 4600
 F 0 "J1" H 3157 5467 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 3157 5376 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 3200 4600 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 3200 4600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3200 4600 50  0001 C CNN
 	1    3050 4600
 	1    0    0    -1  
@@ -460,16 +431,14 @@ $EndComp
 $Comp
 L Device:R_Small_US R10
 U 1 1 5FBD8F59
-P 3400 1400
-F 0 "R10" H 3468 1446 50  0000 L CNN
-F 1 "1K" H 3468 1355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 3400 1400 50  0001 C CNN
-F 3 "~" H 3400 1400 50  0001 C CNN
-	1    3400 1400
+P 3400 2150
+F 0 "R10" H 3468 2196 50  0000 L CNN
+F 1 "10K" H 3468 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 3400 2150 50  0001 C CNN
+F 3 "~" H 3400 2150 50  0001 C CNN
+	1    3400 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 1650 3400 1500
 Wire Wire Line
 	7100 3700 7400 3700
 Wire Wire Line
@@ -487,9 +456,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 2400 7250 2400
 Text GLabel 8750 3400 2    50   Input ~ 0
-D13
+13
 Text GLabel 8750 2400 2    50   Input ~ 0
-SS
+17
 Wire Wire Line
 	8600 5300 8750 5300
 Wire Wire Line
@@ -555,17 +524,6 @@ F 3 "~" H 6250 1750 50  0001 C CNN
 	1    6250 1750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U2
-U 1 1 5FB9FFDE
-P 8000 3900
-F 0 "U2" H 8000 2011 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 8000 1920 50  0000 C CNN
-F 2 "NeihPackage:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 8000 3900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8000 3900 50  0001 C CNN
-	1    8000 3900
-	1    0    0    -1  
-$EndComp
 Text GLabel 6000 1750 0    50   Input ~ 0
 VCC
 Wire Wire Line
@@ -602,17 +560,6 @@ F 3 "~" H 5300 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J3
-U 1 1 5FC6CBBF
-P 5600 5350
-F 0 "J3" V 5564 4962 50  0000 R CNN
-F 1 "Conn_01x06" V 5473 4962 50  0000 R CNN
-F 2 "NeihConnector:PinHeader_1x06_P2.54mm_Circular_Vertical_2" H 5600 5350 50  0001 C CNN
-F 3 "~" H 5600 5350 50  0001 C CNN
-	1    5600 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x12 J4
 U 1 1 5FC6B60C
 P 6000 4700
@@ -636,17 +583,17 @@ SDA
 Text GLabel 5100 4600 0    50   Input ~ 0
 SCL
 Text GLabel 5100 4700 0    50   Input ~ 0
-D4
+4
 Text GLabel 5100 4800 0    50   Input ~ 0
-D5
+5
 Text GLabel 5100 4900 0    50   Input ~ 0
-D6
+6
 Text GLabel 5100 5000 0    50   Input ~ 0
-D7
+7
 Text GLabel 5100 5100 0    50   Input ~ 0
-D8
+8
 Text GLabel 5100 5200 0    50   Input ~ 0
-D9
+9
 Text GLabel 6200 4100 2    50   Input ~ 0
 RAW
 Text GLabel 6200 4200 2    50   Input ~ 0
@@ -664,25 +611,23 @@ A1
 Text GLabel 6200 4800 2    50   Input ~ 0
 A0
 Text GLabel 6200 4900 2    50   Input ~ 0
-SCK
+15
 Text GLabel 6200 5000 2    50   Input ~ 0
-MISO
+14
 Text GLabel 6200 5100 2    50   Input ~ 0
-MOSI
+16
 Text GLabel 6200 5200 2    50   Input ~ 0
-D10
-Text GLabel 5400 5550 3    50   Input ~ 0
-D11
-Text GLabel 5500 5550 3    50   Input ~ 0
-D12
-Text GLabel 5600 5550 3    50   Input ~ 0
-D13
-Text GLabel 5700 5550 3    50   Input ~ 0
+10
+Text GLabel 5450 5400 3    50   Input ~ 0
+12
+Text GLabel 5550 5400 3    50   Input ~ 0
+13
+Text GLabel 5650 5400 3    50   Input ~ 0
 A4
-Text GLabel 5800 5550 3    50   Input ~ 0
+Text GLabel 5750 5400 3    50   Input ~ 0
 A5
-Text GLabel 5900 5550 3    50   Input ~ 0
-SS
+Text GLabel 5850 5400 3    50   Input ~ 0
+17
 $Comp
 L Diode:1N5819 D3
 U 1 1 5FCBC938
@@ -703,8 +648,67 @@ F 1 "1N5819" V 3355 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123F" H 3400 2375 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3400 2550 50  0001 C CNN
 	1    3400 2550
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3400 2400 3400 2250
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 5FDE6139
+P 5650 5200
+F 0 "J3" V 5614 4912 50  0000 R CNN
+F 1 "Conn_01x05" V 5523 4912 50  0000 R CNN
+F 2 "NeihConnector:PinHeader_1x05_P2.54mm_Circular_Vertical_2" H 5650 5200 50  0001 C CNN
+F 3 "~" H 5650 5200 50  0001 C CNN
+	1    5650 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-M U2
+U 1 1 5FE010D0
+P 8000 3900
+F 0 "U2" H 8000 2011 50  0000 C CNN
+F 1 "ATmega32U4-M" H 8000 1920 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 8000 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8000 3900 50  0001 C CNN
+	1    8000 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7200 5150 1    50   Input ~ 0
+11
+Text GLabel 7200 5650 3    50   Input ~ 0
+GND
+$Comp
+L Device:R_Small_US R7
+U 1 1 5FEB92E9
+P 7200 5400
+F 0 "R7" H 7268 5446 50  0000 L CNN
+F 1 "1K" H 7268 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 7200 5400 50  0001 C CNN
+F 3 "~" H 7200 5400 50  0001 C CNN
+	1    7200 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5150 7200 5300
+Wire Wire Line
+	7200 5500 7200 5650
+Connection ~ 5350 2850
+Wire Wire Line
+	4150 2950 4000 2950
+Wire Wire Line
+	4000 2850 4150 2850
+$Comp
+L Regulator_Linear:MIC5219-5.0YM5 U1
+U 1 1 5FBA006E
+P 4450 2950
+F 0 "U1" H 4450 3292 50  0000 C CNN
+F 1 "MIC5219-5.0YM5" H 4450 3201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4450 3275 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 4450 2950 50  0001 C CNN
+	1    4450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2850 5350 2850
 $EndSCHEMATC
