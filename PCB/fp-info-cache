@@ -1,4 +1,4 @@
-20851006059665398
+20857479269509834
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -231,16 +231,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -536,8 +536,8 @@ ArduinoMicroC
 Neih-Tech Arduino Micro-C
 neih tech arduino micro c
 0
-60
-30
+58
+29
 ArduinoMicroC
 ArduinoMicroC_24Pins
 Neih-Tech Arduino Micro-C with only 24 pins
@@ -564,15 +564,15 @@ ArduinoMicroC_SMD
 Neih-Tech Arduino Micro-C with only SMD solder
 neih tech arduino micro c smd solder
 0
-30
-30
+29
+29
 ArduinoMicroC
 ArduinoMicroC_THT
 Neih-Tech Arduino Micro-C with only THT solder
 neih tech arduino micro c tht solder
 0
-30
-30
+29
+29
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63818,6 +63818,34 @@ Through hole pin header THT 1x12 2.54mm single row
 0
 24
 12
+NeihConnector
+PinHeader_1x13_P2.54mm_Circular_Vertical_1
+Through hole straight pin header, 1x13, 2.54mm pitch, single row
+Through hole pin header THT 1x13 2.54mm single row
+0
+13
+13
+NeihConnector
+PinHeader_1x13_P2.54mm_Circular_Vertical_2
+Through hole straight pin header, 1x13, 2.54mm pitch, single row
+Through hole pin header THT 1x13 2.54mm single row
+0
+26
+13
+NeihConnector
+PinHeader_1x13_P2.54mm_Rectangular_Vertical_1
+Through hole straight pin header, 1x13, 2.54mm pitch, single row
+Through hole pin header THT 1x13 2.54mm single row
+0
+13
+13
+NeihConnector
+PinHeader_1x13_P2.54mm_Rectangular_Vertical_2
+Through hole straight pin header, 1x13, 2.54mm pitch, single row
+Through hole pin header THT 1x13 2.54mm single row
+0
+26
+13
 NeihConnector
 PinHeader_1x15_P2.54mm_Circular_Vertical_1
 Through hole straight pin header, 1x15, 2.54mm pitch, single row
