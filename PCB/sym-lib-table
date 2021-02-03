@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ArduinoMicroC)(type Legacy)(uri E:/Projects/Embedded/ArduinoMicroC/Module/Library/ArduinoMicroC.lib)(options "")(descr ""))
+  (lib (name ArduinoMicroC-rescue)(type Legacy)(uri ${KIPRJMOD}/ArduinoMicroC-rescue.lib)(options "")(descr ""))
 )

@@ -136,9 +136,9 @@ GND
 Text GLabel 6300 2700 0    50   Input ~ 0
 GND
 Text GLabel 7250 3400 0    50   Input ~ 0
-D+
+C_D+
 Text GLabel 7250 3500 0    50   Input ~ 0
-D-
+C_D-
 Text GLabel 7250 3200 0    50   Input ~ 0
 VBUS
 Text GLabel 7250 3000 0    50   Input ~ 0
@@ -209,16 +209,16 @@ Text GLabel 3050 5650 3    50   Input ~ 0
 GND
 Text GLabel 4500 5300 3    50   Input ~ 0
 GND
-Text GLabel 4150 5300 3    50   Input ~ 0
-D-
-Text GLabel 3800 5300 3    50   Input ~ 0
-D+
+Text GLabel 4150 5800 3    50   Input ~ 0
+C_D-
+Text GLabel 3800 5800 3    50   Input ~ 0
+C_D+
 Wire Wire Line
 	4500 5150 4500 5300
 Wire Wire Line
-	4150 5150 4150 5300
+	4150 5650 4150 5800
 Wire Wire Line
-	3800 5150 3800 5300
+	3800 5650 3800 5800
 Text GLabel 6750 3700 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -337,7 +337,7 @@ F 3 "~" H 5750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C3
+L Device:C_Polarized_Small_US C3
 U 1 1 5FBA004F
 P 5350 3200
 F 0 "C3" H 5441 3246 50  0000 L CNN
@@ -348,7 +348,7 @@ F 3 "~" H 5350 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C1
+L Device:C_Polarized_Small_US C1
 U 1 1 5FBA0049
 P 4000 3200
 F 0 "C1" H 4091 3246 50  0000 L CNN
@@ -383,23 +383,23 @@ $EndComp
 $Comp
 L Device:R_Small_US R1
 U 1 1 5FBA0037
-P 3800 5050
-F 0 "R1" H 3868 5096 50  0000 L CNN
-F 1 "5.1K" H 3868 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 3800 5050 50  0001 C CNN
-F 3 "~" H 3800 5050 50  0001 C CNN
-	1    3800 5050
+P 3800 5550
+F 0 "R1" H 3868 5596 50  0000 L CNN
+F 1 "5.1K" H 3868 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 3800 5550 50  0001 C CNN
+F 3 "~" H 3800 5550 50  0001 C CNN
+	1    3800 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R2
 U 1 1 5FBA002B
-P 4150 5050
-F 0 "R2" H 4218 5096 50  0000 L CNN
-F 1 "5.1K" H 4218 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 4150 5050 50  0001 C CNN
-F 3 "~" H 4150 5050 50  0001 C CNN
-	1    4150 5050
+P 4150 5550
+F 0 "R2" H 4218 5596 50  0000 L CNN
+F 1 "5.1K" H 4218 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 4150 5550 50  0001 C CNN
+F 3 "~" H 4150 5550 50  0001 C CNN
+	1    4150 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -548,85 +548,63 @@ Wire Wire Line
 	7050 1750 7200 1750
 Text GLabel 7200 1750 2    50   Input ~ 0
 GND
-$Comp
-L Connector_Generic:Conn_01x12 J2
-U 1 1 5FC6A9ED
-P 5300 4600
-F 0 "J2" H 5380 4592 50  0000 L CNN
-F 1 "Conn_01x12" H 5380 4501 50  0000 L CNN
-F 2 "NeihConnector:PinHeader_1x12_P2.54mm_Circular_Vertical_2" H 5300 4600 50  0001 C CNN
-F 3 "~" H 5300 4600 50  0001 C CNN
-	1    5300 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x12 J4
-U 1 1 5FC6B60C
-P 6000 4700
-F 0 "J4" H 5918 3875 50  0000 C CNN
-F 1 "Conn_01x12" H 5918 3966 50  0000 C CNN
-F 2 "NeihConnector:PinHeader_1x12_P2.54mm_Circular_Vertical_2" H 6000 4700 50  0001 C CNN
-F 3 "~" H 6000 4700 50  0001 C CNN
-	1    6000 4700
-	-1   0    0    1   
-$EndComp
-Text GLabel 5100 4100 0    50   Input ~ 0
+Text GLabel 5100 4350 0    50   Input ~ 0
 TX
-Text GLabel 5100 4200 0    50   Input ~ 0
+Text GLabel 5100 4450 0    50   Input ~ 0
 RX
-Text GLabel 5100 4300 0    50   Input ~ 0
+Text GLabel 5100 4550 0    50   Input ~ 0
 GND
-Text GLabel 5100 4400 0    50   Input ~ 0
+Text GLabel 5100 4650 0    50   Input ~ 0
 GND
-Text GLabel 5100 4500 0    50   Input ~ 0
+Text GLabel 5100 4750 0    50   Input ~ 0
 SDA
-Text GLabel 5100 4600 0    50   Input ~ 0
+Text GLabel 5100 4850 0    50   Input ~ 0
 SCL
-Text GLabel 5100 4700 0    50   Input ~ 0
+Text GLabel 5100 4950 0    50   Input ~ 0
 4
-Text GLabel 5100 4800 0    50   Input ~ 0
+Text GLabel 5100 5050 0    50   Input ~ 0
 5
-Text GLabel 5100 4900 0    50   Input ~ 0
+Text GLabel 5100 5150 0    50   Input ~ 0
 6
-Text GLabel 5100 5000 0    50   Input ~ 0
+Text GLabel 5100 5250 0    50   Input ~ 0
 7
-Text GLabel 5100 5100 0    50   Input ~ 0
+Text GLabel 5100 5350 0    50   Input ~ 0
 8
-Text GLabel 5100 5200 0    50   Input ~ 0
+Text GLabel 5100 5450 0    50   Input ~ 0
 9
-Text GLabel 6200 4100 2    50   Input ~ 0
+Text GLabel 6200 4350 2    50   Input ~ 0
 RAW
-Text GLabel 6200 4200 2    50   Input ~ 0
+Text GLabel 6200 4450 2    50   Input ~ 0
 GND
-Text GLabel 6200 4300 2    50   Input ~ 0
+Text GLabel 6200 4550 2    50   Input ~ 0
 RESET
-Text GLabel 6200 4400 2    50   Input ~ 0
+Text GLabel 6200 4650 2    50   Input ~ 0
 VCC
-Text GLabel 6200 4500 2    50   Input ~ 0
+Text GLabel 6200 4750 2    50   Input ~ 0
 A3
-Text GLabel 6200 4600 2    50   Input ~ 0
+Text GLabel 6200 4850 2    50   Input ~ 0
 A2
-Text GLabel 6200 4700 2    50   Input ~ 0
+Text GLabel 6200 4950 2    50   Input ~ 0
 A1
-Text GLabel 6200 4800 2    50   Input ~ 0
+Text GLabel 6200 5050 2    50   Input ~ 0
 A0
-Text GLabel 6200 4900 2    50   Input ~ 0
+Text GLabel 6200 5150 2    50   Input ~ 0
 15
-Text GLabel 6200 5000 2    50   Input ~ 0
+Text GLabel 6200 5250 2    50   Input ~ 0
 14
-Text GLabel 6200 5100 2    50   Input ~ 0
+Text GLabel 6200 5350 2    50   Input ~ 0
 16
-Text GLabel 6200 5200 2    50   Input ~ 0
+Text GLabel 6200 5450 2    50   Input ~ 0
 10
-Text GLabel 5450 5400 3    50   Input ~ 0
+Text GLabel 5450 5650 3    50   Input ~ 0
 12
-Text GLabel 5550 5400 3    50   Input ~ 0
+Text GLabel 5550 5650 3    50   Input ~ 0
 13
-Text GLabel 5650 5400 3    50   Input ~ 0
+Text GLabel 5650 5650 3    50   Input ~ 0
 A4
-Text GLabel 5750 5400 3    50   Input ~ 0
+Text GLabel 5750 5650 3    50   Input ~ 0
 A5
-Text GLabel 5850 5400 3    50   Input ~ 0
+Text GLabel 5850 5650 3    50   Input ~ 0
 17
 $Comp
 L Diode:1N5819 D3
@@ -655,12 +633,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x05 J3
 U 1 1 5FDE6139
-P 5650 5200
-F 0 "J3" V 5614 4912 50  0000 R CNN
-F 1 "Conn_01x05" V 5523 4912 50  0000 R CNN
-F 2 "NeihConnector:PinHeader_1x05_P2.54mm_Circular_Vertical_2" H 5650 5200 50  0001 C CNN
-F 3 "~" H 5650 5200 50  0001 C CNN
-	1    5650 5200
+P 5650 5450
+F 0 "J3" V 5614 5162 50  0000 R CNN
+F 1 "Conn_01x05" V 5523 5162 50  0000 R CNN
+F 2 "NeihConnector:PinHeader_1x05_P2.54mm_Circular_Vertical_2" H 5650 5450 50  0001 C CNN
+F 3 "~" H 5650 5450 50  0001 C CNN
+	1    5650 5450
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -711,4 +689,42 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-L
 $EndComp
 Wire Wire Line
 	4750 2850 5350 2850
+$Comp
+L Connector_Generic:Conn_01x13 J2
+U 1 1 601AFC80
+P 5300 4850
+F 0 "J2" H 5380 4892 50  0000 L CNN
+F 1 "Conn_01x13" H 5380 4801 50  0000 L CNN
+F 2 "NeihConnector:PinHeader_1x13_P2.54mm_Circular_Vertical_2" H 5300 4850 50  0001 C CNN
+F 3 "~" H 5300 4850 50  0001 C CNN
+	1    5300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x13 J4
+U 1 1 601B16C7
+P 6000 4850
+F 0 "J4" H 5918 4025 50  0000 C CNN
+F 1 "Conn_01x13" H 5918 4116 50  0000 C CNN
+F 2 "NeihConnector:PinHeader_1x13_P2.54mm_Circular_Vertical_2" H 6000 4850 50  0001 C CNN
+F 3 "~" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	-1   0    0    1   
+$EndComp
+Text GLabel 5100 4250 0    50   Input ~ 0
+D+
+Text GLabel 6200 4250 2    50   Input ~ 0
+D-
+Text GLabel 3800 4950 3    50   Input ~ 0
+D+
+Text GLabel 4150 4950 3    50   Input ~ 0
+D-
+Wire Wire Line
+	3800 5450 3800 5300
+Wire Wire Line
+	4150 5450 4150 5300
+Text GLabel 3800 5300 1    50   Input ~ 0
+D+
+Text GLabel 4150 5300 1    50   Input ~ 0
+D-
 $EndSCHEMATC
