@@ -1,4 +1,4 @@
-20857479269509834
+20859092225741966
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -63831,6 +63831,13 @@ Through hole straight pin header, 1x13, 2.54mm pitch, single row
 Through hole pin header THT 1x13 2.54mm single row
 0
 26
+13
+NeihConnector
+PinHeader_1x13_P2.54mm_Circular_Vertical_3
+Through hole straight pin header, 1x13, 2.54mm pitch, single row
+Through hole pin header THT 1x13 2.54mm single row
+0
+28
 13
 NeihConnector
 PinHeader_1x13_P2.54mm_Rectangular_Vertical_1

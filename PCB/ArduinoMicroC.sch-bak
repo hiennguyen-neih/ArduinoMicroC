@@ -330,7 +330,7 @@ L Device:R_Small_US R4
 U 1 1 5FBA0055
 P 5750 3100
 F 0 "R4" H 5818 3146 50  0000 L CNN
-F 1 "10K" H 5818 3055 50  0000 L CNN
+F 1 "1K" H 5818 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 5750 3100 50  0001 C CNN
 F 3 "~" H 5750 3100 50  0001 C CNN
 	1    5750 3100
@@ -695,7 +695,7 @@ U 1 1 601AFC80
 P 5300 4850
 F 0 "J2" H 5380 4892 50  0000 L CNN
 F 1 "Conn_01x13" H 5380 4801 50  0000 L CNN
-F 2 "NeihConnector:PinHeader_1x13_P2.54mm_Circular_Vertical_2" H 5300 4850 50  0001 C CNN
+F 2 "NeihConnector:PinHeader_1x13_P2.54mm_Circular_Vertical_3" H 5300 4850 50  0001 C CNN
 F 3 "~" H 5300 4850 50  0001 C CNN
 	1    5300 4850
 	1    0    0    -1  
@@ -706,7 +706,7 @@ U 1 1 601B16C7
 P 6000 4850
 F 0 "J4" H 5918 4025 50  0000 C CNN
 F 1 "Conn_01x13" H 5918 4116 50  0000 C CNN
-F 2 "NeihConnector:PinHeader_1x13_P2.54mm_Circular_Vertical_2" H 6000 4850 50  0001 C CNN
+F 2 "NeihConnector:PinHeader_1x13_P2.54mm_Circular_Vertical_3" H 6000 4850 50  0001 C CNN
 F 3 "~" H 6000 4850 50  0001 C CNN
 	1    6000 4850
 	-1   0    0    1   
